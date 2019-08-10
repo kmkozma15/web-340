@@ -1,2 +1,5 @@
 # web-340
-This is the coursework for WEB 340 - Node.js
+Node.js
+#contributors
+Professor Krasso - Bellevue University
+Keith Kozma - Bellevue University
