@@ -1,0 +1,18 @@
+
+html {
+  background-color: cornflowerblue;
+}
+nav {
+  border: darkgreen, 1px, solid;
+}
+
+.row1 {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+.col-sm-12 {
+  background-color: steelblue;
+  border: tomato, 2px, dashed;
+}

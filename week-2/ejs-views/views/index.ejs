@@ -1,0 +1,41 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>EJS Views Example</title>
+
+      <!-- Stylesheet - Bootstrap -->
+      <link
+        rel="stylesheet"
+        href="/week-2/ejs-views/style/style.css"
+      />
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+        <br /><br />
+        <h2>EJS Views Example</h2>
+        <div role="main" class="container">
+        <div class="row1">
+          <div class="col-sm-12">
+            <div class="alert alert-success" role="alert">
+              <p>First Name: <%= firstName %></p>
+              <p>Last Name: <%= lastName %></p>
+            </div>
+            <p>Address: <%= address %></p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
