@@ -1,4 +1,14 @@
-
+// Header file output
+var header = require("../../kozma-header.js")
+console.log(header.display("Keith" , "Kozma", "Assignment 2.4") + '\n')
+/*
+============================================
+; Title: Assignment 3.2
+; Author: Keith Kozma
+; Date: 23 August 2019
+; Description: This program creates a server and logs the requests made in the console window.
+;===========================================
+*/
 //Creating required library statements and assigning express to variable
 var express = require('express');
 var http = require('http');
