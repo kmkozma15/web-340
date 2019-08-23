@@ -8,7 +8,7 @@ var logger = require('morgan');
 var app = express();
 
 //Sets which directory to view the .ejs file
-app.set('views', path.resolve(__dirname,views));
+app.set('views', path.resolve(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
