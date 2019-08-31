@@ -6,7 +6,7 @@ console.log(header.display("Keith" , "Kozma", "Assignment 4.3") + '\n')
 ; Title: Assignment 4.3
 ; Author: Keith Kozma
 ; Date: 30 August 2019
-; Description: This program demonstrates how to create API which returns JSON data.
+; Description: This program demonstrates how differentiate and implement HTTP status codes.
 ;===========================================
 */
 //Creating required library statements and assigning express to variable
