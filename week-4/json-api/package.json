@@ -1,8 +1,6 @@
 {
-  "name": "JSON APIs",
+  "name": "json-api",
   "author": "Keith Kozma",
   "private": true,
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
