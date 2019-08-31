@@ -1,6 +1,6 @@
 // Header file output
-var header = require("../kozma-header.js")
-console.log(header.display("Keith" , "Kozma", "Assignment 3.2") + '\n')
+var header = require("../../kozma-header.js")
+console.log(header.display("Keith" , "Kozma", "Assignment 4.2") + '\n')
 /*
 ============================================
 ; Title: Assignment 4.2
