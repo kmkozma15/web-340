@@ -37,7 +37,7 @@ app.get('/ok', function(req, res) {
 });
 
 app.get('/not-implemented', function(req, res) {
-  res.status(5001);
+  res.status(501);
 
   res.json({
     error: 'Page not yet implemented'
