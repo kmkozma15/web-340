@@ -6,7 +6,7 @@ console.log(header.display("Keith" , "Kozma", "Assignment 4.2") + '\n')
 ; Title: Assignment 4.2
 ; Author: Keith Kozma
 ; Date: 30 August 2019
-; Description: This program creates a server and logs the requests made in the console window.
+; Description: This program demonstrates how to create API which returns JSON data.
 ;===========================================
 */
 //Creating required library statements and assigning express to variable
@@ -18,6 +18,7 @@ var app = express();
 
 app.use(logger('dev'));
 
+//Creates a get request which listens for anything after the /
 app.get('/customer/:id', function (req, res) {
   var id = parseInt(req.params.id, 10);
   res.json({
@@ -27,6 +28,7 @@ app.get('/customer/:id', function (req, res) {
   });
 });
 
+//Logs to the client the application starting place and run message
 http.createServer(app).listen(3000, function () {
   console.log('Application started and listening on port 3000');
 
