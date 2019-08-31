@@ -18,7 +18,7 @@ var app = express();
 
 app.use(logger('dev'));
 
-app.get('/customer/id:', function (req, res) {
+app.get('/customer/:id', function (req, res) {
   var id = parseInt(req.params.id, 10);
   res.json({
     firstName: 'Leo',
