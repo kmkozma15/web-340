@@ -1,25 +1,36 @@
-// require
+// Header file output
+var header = require("../../kozma-header")
+console.log(header.display("Keith" , "Kozma", "Assignment 5.2") + '\n')
+/*
+============================================
+; Title:  Assignment 5.2
+; Author: Keith Kozma
+; Date:   6 September 2019
+; Description: This application demonstrates the capabilities of an EJS template.
+;===========================================
+*/
+// required variables
 var express = require('express');
 var http = require('http');
 var path = require('path');
 
-//app functions
+//application functions
 var app = express();
 app.set('views', path.resolve(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-//local composer array
-var composers = [
-  "Bach",
-  "Mozart",
-  "Beethoven",
-  "Verdi"
+//array of singers
+var singers = [
+  "Bon Jovi",
+  "Madonna",
+  "Michael Jackson",
+  "Elton John"
 ];
 
 //routes
 app.get('/', function (req, res) {
   res.render('index', {
-    names: composers
+    names: singers
   });
 });
 
