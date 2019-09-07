@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 });
 
 //create server
-http.createServer(app).listen(3001, function () {
-  console.log('Application has started and is listening on port 3001');
+http.createServer(app).listen(3002, function () {
+  console.log('Application has started and is listening on port 3002');
 
 });
