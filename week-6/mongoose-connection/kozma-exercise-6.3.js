@@ -4,7 +4,7 @@ var http = require('http');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 
-var mongoDB = "mongodb+srv://kozmak:<IOIw0WbYnDtsE24t>@buwebdev-cluster-1-oyje0.mongodb.net/test";
+var mongoDB = "mongodb+srv://kozmak:IOIw0WbYnDtsE24t@buwebdev-cluster-1-oyje0.mongodb.net/test";
 mongoose.connect(mongoDB, {
   useMongoClient: true
 });
@@ -21,6 +21,6 @@ var app = express();
 app.use(logger('dev'));
 
 http.createServer(app).listen(5050, function (){
-  console.log('Application has started and is listening on port 8002');
+  console.log('Application has started and is listening on port 5050');
 
 });
