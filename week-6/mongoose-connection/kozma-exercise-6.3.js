@@ -1,3 +1,13 @@
+var header = require("../../kozma-header")
+console.log(header.display("Keith" , "Kozma", "Assignment 6.3") + '\n')
+/*
+============================================
+; Title:  Assignment 6.3
+; Author: Keith Kozma
+; Date:   13 September 2019
+; Description: This application demonstrates how to connect to mongoDB.
+;===========================================
+*/
 // require
 var express = require('express');
 var http = require('http');
