@@ -21,6 +21,6 @@ var app = express();
 app.use(logger('dev'));
 
 http.createServer(app).listen(5000, function (){
-  console.log('Application has started and is listening on port 5050');
+  console.log('Application has started and is listening on port 8002');
 
 })
