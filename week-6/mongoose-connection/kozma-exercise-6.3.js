@@ -4,7 +4,7 @@ var http = require('http');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 
-var mongoDB = "mongodb+srv://kozmak:<IOIw0WbYnDtsE24t>@buwebdev-cluster-1-oyje0.mongodb.net/test"
+var mongoDB = "mongodb+srv://kozmak:<IOIw0WbYnDtsE24t>@buwebdev-cluster-1-oyje0.mongodb.net/test";
 mongoose.connect(mongoDB, {
   useMongoClient: true
 });
