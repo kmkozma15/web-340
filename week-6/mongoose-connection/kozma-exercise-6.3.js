@@ -20,7 +20,7 @@ db.once('open', function() {
 var app = express();
 app.use(logger('dev'));
 
-http.createServer(app).listen(5000, function (){
+http.createServer(app).listen(5050, function (){
   console.log('Application has started and is listening on port 8002');
 
 });
