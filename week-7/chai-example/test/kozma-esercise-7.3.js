@@ -12,7 +12,7 @@ console.log(header.display("Keith", "Kozma", "Exercise 7.3") + '\n');
 ;===========================================
 */
 
-var fruits = require("../fruits");
+var fruits = require("../kozma-fruits");
 var chai = require ("chai");
 var assert = chai.assert;
 
