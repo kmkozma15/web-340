@@ -2,7 +2,7 @@
   "name": "chai-example",
   "author": "Keith Kozma",
   "private": true,
-  "scripts": {"test": "chai"},
+  "scripts": {"test": "mocha chai"},
   "dependencies": {
   }
 }
