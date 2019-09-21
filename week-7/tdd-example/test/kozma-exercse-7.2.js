@@ -11,7 +11,6 @@ console.log(header.display("Keith", "Kozma", "Exercise 7.2") + '\n');
 ;===========================================
 */
 
-// Start program
 var assert = require("assert");
 
 describe("String#split", function() {
@@ -23,5 +22,3 @@ function getFruits(str) {
 	return str.split(",");
 }
 module.exports = getFruits;
-
-// End program

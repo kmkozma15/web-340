@@ -1,0 +1,8 @@
+{
+  "name": "chai-example",
+  "author": "Keith Kozma",
+  "private": true,
+  "scripts": {"test": "chai"},
+  "dependencies": {
+  }
+}
