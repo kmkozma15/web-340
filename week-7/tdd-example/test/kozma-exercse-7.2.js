@@ -10,12 +10,6 @@ describe("String#split", function() {
 
 });
 
-Run the test
-
-        npm test
-
-Passed function
-
 function getFruits(str) {
 
     return str.split(',');
